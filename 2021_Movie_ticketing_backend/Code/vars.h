@@ -1,0 +1,41 @@
+#ifndef _VARS_
+#define _VARS_
+extern int reservationCount;
+extern int scheduleCount;
+extern int movieCount;
+extern char movieNames[][500];
+extern int importSchedule[][6];
+extern int importReservations[][7];
+extern double totals[];
+extern char userNames[][2][50];
+extern int userMovieToSave;
+extern int userMonthToSave;
+extern int userDayToSave;
+extern int userTimeToSave;
+extern int orderNumber;
+extern int rows;
+extern int seats;
+extern int userMovieChoice;
+extern int userDateChoice;
+extern int userSeatChoice;
+extern char userRowChoiceLetter;
+extern int userRowChoice;
+extern int userFoodChoice;
+extern char userFirstName[];
+extern char userLastName[];
+extern double total;
+extern int orderReview;
+extern int adminAccess;
+extern int counting[];
+extern int count;
+extern char food[][2][50];
+extern int foodPrices[];
+extern int foodItems;
+extern char movieMonth[][50];
+extern char movieTimes[][10];
+extern char rowLetters[];
+extern char add;
+extern int itemCounter;
+extern int itemsSelected[][3];
+extern int adminOption;
+#endif

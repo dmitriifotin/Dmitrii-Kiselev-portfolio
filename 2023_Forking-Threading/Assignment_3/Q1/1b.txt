@@ -1,0 +1,73 @@
+     +--------------------------------------------------------------------+
+     ¦                • MobaXterm Personal Edition v22.1 •                ¦
+     ¦              (X server, SSH client and network tools)              ¦
+     ¦                                                                    ¦
+     ¦ ? Your computer drives are accessible through the /drives path     ¦
+     ¦ ? Your DISPLAY is set to 192.168.0.11:0.0                          ¦
+     ¦ ? When using SSH, your remote DISPLAY is automatically forwarded   ¦
+     ¦ ? Each command status is specified by a special symbol (? or ?)    ¦
+     ¦                                                                    ¦
+     ¦ • Important:                                                       ¦
+     ¦ This is MobaXterm Personal Edition. The Professional edition       ¦
+     ¦ allows you to customize MobaXterm for your company: you can add    ¦
+     ¦ your own logo, your parameters, your welcome message and generate  ¦
+     ¦ either an MSI installation package or a portable executable.       ¦
+     ¦ We can also modify MobaXterm or develop the plugins you need.      ¦
+     ¦ For more information: https://mobaxterm.mobatek.net/download.html  ¦
+     +--------------------------------------------------------------------+
+
+ ? 27/10/2022 ? ? 11:47.39 ? ? /home/mobaxterm ? whoami
+fotin
+                                                                               ?
+
+ ? 27/10/2022 ? ? 11:47.43 ? ? /home/mobaxterm ? echo Dmitrii Fotin
+Dmitrii Fotin
+                                                                               ?
+
+ ? 27/10/2022 ? ? 11:47.46 ? ? /home/mobaxterm ? cd desktop/hw1/hw3/hw3_question1a
+                                                                               ?
+
+ ? /home/mobaxterm/desktop/hw1/hw3/hw3_question1a ?
+ ? 27/10/2022 ? ? 11:47.58 ? gcc -Wall -std=c99 -c question1b.c
+                                                                               ?
+
+ ? /home/mobaxterm/desktop/hw1/hw3/hw3_question1a ?
+ ? 27/10/2022 ? ? 11:48.10 ? gcc question1b.c
+                                                                               ?
+
+ ? /home/mobaxterm/desktop/hw1/hw3/hw3_question1a ?
+ ? 27/10/2022 ? ? 11:48.18 ? ./a
+Draw, o coward!
+Current working directory: /drives/C/Users/fotin/Desktop/hw1/hw3/hw3_question1a
+
+Enter phrase:
+
+hello Emily!
+
+NOT A PALINDROME
+
+Enter phrase:
+
+A nut for a jar of tuna.
+
+PALINDROME
+
+Enter phrase:
+
+Dammit, I'm mad!
+
+PALINDROME
+
+Enter phrase:
+
+Stressed desserts
+
+PALINDROME
+
+Enter phrase:
+
+There is no way to exit this program, since it's not listed as a requirement.
+
+NOT A PALINDROME
+
+Enter phrase:

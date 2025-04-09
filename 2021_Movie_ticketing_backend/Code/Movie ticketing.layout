@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="vars.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="169" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="166" topLine="36" />
+		</Cursor>
+		<Folding>
+			<Collapse line="47" />
+			<Collapse line="53" />
+			<Collapse line="80" />
+			<Collapse line="87" />
+			<Collapse line="119" />
+			<Collapse line="124" />
+			<Collapse line="161" />
+			<Collapse line="165" />
+			<Collapse line="174" />
+			<Collapse line="251" />
+			<Collapse line="256" />
+			<Collapse line="260" />
+		</Folding>
+	</File>
+	<File name="funs.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="173" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="vars.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="14" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="funs.c" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="65" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="5" />
+			<Collapse line="10" />
+			<Collapse line="77" />
+			<Collapse line="99" />
+			<Collapse line="110" />
+			<Collapse line="153" />
+			<Collapse line="189" />
+			<Collapse line="234" />
+			<Collapse line="261" />
+			<Collapse line="348" />
+			<Collapse line="391" />
+			<Collapse line="402" />
+			<Collapse line="427" />
+			<Collapse line="469" />
+			<Collapse line="487" />
+			<Collapse line="513" />
+			<Collapse line="530" />
+			<Collapse line="541" />
+			<Collapse line="558" />
+			<Collapse line="633" />
+			<Collapse line="719" />
+			<Collapse line="823" />
+			<Collapse line="1051" />
+		</Folding>
+	</File>
+</CodeBlocks_layout_file>

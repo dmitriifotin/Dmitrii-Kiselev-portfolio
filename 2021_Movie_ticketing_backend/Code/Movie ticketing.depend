@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1628990628 source:c:\users\fotin\desktop\files\movie ticketing\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"vars.h"
+	"funs.h"
+
+1628898883 source:c:\users\fotin\desktop\files\vars.c
+	"vars.h"
+
+1628899372 c:\users\fotin\desktop\files\vars.h
+
+1628892656 source:c:\users\fotin\desktop\files\movie ticketing\vars.c
+	"vars.h"
+
+1628891924 c:\users\fotin\desktop\files\movie ticketing\vars.h
+
+1628987780 c:\users\fotin\desktop\files\movie ticketing\funs.h
+
+1629001067 source:c:\users\fotin\desktop\files\movie ticketing\funs.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"funs.h"
+
+1628990630 source:c:\users\fotin\desktop\files\ece103_t03_project\ece103_t03_final_code\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"vars.h"
+	"funs.h"
+
+1628891926 c:\users\fotin\desktop\files\ece103_t03_project\ece103_t03_final_code\vars.h
+
+1628987782 c:\users\fotin\desktop\files\ece103_t03_project\ece103_t03_final_code\funs.h
+
+1628892658 source:c:\users\fotin\desktop\files\ece103_t03_project\ece103_t03_final_code\vars.c
+	"vars.h"
+
+1629002498 source:c:\users\fotin\desktop\files\ece103_t03_project\ece103_t03_final_code\funs.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"funs.h"
+

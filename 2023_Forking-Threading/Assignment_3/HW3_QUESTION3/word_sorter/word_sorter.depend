@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1667179401 source:c:\users\fotin\desktop\hw1\hw3\hw3_question3\word_sorter\word_sorter.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<errno.h>
+

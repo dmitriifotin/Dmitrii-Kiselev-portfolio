@@ -1,0 +1,64 @@
+bash-4.2$ whoami
+dfotin
+bash-4.2$ cd
+bash-4.2$ cd Desktop/HW5
+bash-4.2$ gcc -std=c99 -ggdb -pthread -o seek seek.c
+bash-4.2$ time ./seek -l 10
+Thread 1 found 499699 occurences
+
+TOTAL DETECTED: 499699
+
+real	0m10.844s
+user	0m10.106s
+sys	0m0.702s
+bash-4.2$ time ./seek -l 10 -t 2
+Thread 2 found 248750 occurences
+Thread 1 found 250949 occurences
+
+TOTAL DETECTED: 499699
+
+real	0m7.280s
+user	0m10.224s
+sys	0m0.723s
+
+bash-4.2$ time ./seek -l 10 -t 4
+Thread 2 found 125672 occurences
+Thread 1 found 125277 occurences
+Thread 4 found 123965 occurences
+Thread 3 found 124785 occurences
+
+TOTAL DETECTED: 499699
+
+real	0m5.339s
+user	0m10.165s
+sys	0m0.709s
+bash-4.2$ time ./seek -l 10 -t 16
+Thread 7 found 31335 occurences
+Thread 2 found 31429 occurences
+Thread 5 found 31618 occurences
+Thread 10 found 30592 occurences
+Thread 6 found 31550 occurences
+Thread 16 found 30946 occurences
+Thread 9 found 31618 occurences
+Thread 1 found 31680 occurences
+Thread 13 found 31257 occurences
+Thread 8 found 31169 occurences
+Thread 15 found 30606 occurences
+Thread 4 found 30947 occurences
+Thread 14 found 31156 occurences
+Thread 3 found 31221 occurences
+Thread 12 found 31225 occurences
+Thread 11 found 31350 occurences
+
+TOTAL DETECTED: 499699
+
+real	0m4.145s
+user	0m10.909s
+sys	0m0.860s
+bash-4.2$ time ./seek -l 10 -t 5
+
+Invalid Number of Threads
+
+real	0m0.006s
+user	0m0.001s
+sys	0m0.005s

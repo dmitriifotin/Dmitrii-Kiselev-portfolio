@@ -1,0 +1,73 @@
+     +--------------------------------------------------------------------+
+     ¦                • MobaXterm Personal Edition v22.1 •                ¦
+     ¦              (X server, SSH client and network tools)              ¦
+     ¦                                                                    ¦
+     ¦ ? Your computer drives are accessible through the /drives path     ¦
+     ¦ ? Your DISPLAY is set to 192.168.0.11:0.0                          ¦
+     ¦ ? When using SSH, your remote DISPLAY is automatically forwarded   ¦
+     ¦ ? Each command status is specified by a special symbol (? or ?)    ¦
+     ¦                                                                    ¦
+     ¦ • Important:                                                       ¦
+     ¦ This is MobaXterm Personal Edition. The Professional edition       ¦
+     ¦ allows you to customize MobaXterm for your company: you can add    ¦
+     ¦ your own logo, your parameters, your welcome message and generate  ¦
+     ¦ either an MSI installation package or a portable executable.       ¦
+     ¦ We can also modify MobaXterm or develop the plugins you need.      ¦
+     ¦ For more information: https://mobaxterm.mobatek.net/download.html  ¦
+     +--------------------------------------------------------------------+
+
+ ? 27/10/2022 ? ? 12:27.27 ? ? /home/mobaxterm ? whoami
+fotin
+                                                                               ?
+
+ ? 27/10/2022 ? ? 12:27.29 ? ? /home/mobaxterm ? echo Dmitrii Fotin
+Dmitrii Fotin
+                                                                               ?
+
+ ? 27/10/2022 ? ? 12:27.33 ? ? /home/mobaxterm ? cd desktop/hw1/hw3/hw3_question2
+                                                                               ?
+
+ ? /home/mobaxterm/desktop/hw1/hw3/hw3_question2 ?
+ ? 27/10/2022 ? ? 12:28.02 ? gcc -Wall -std=c99 -c question2.c
+                                                                               ?
+
+ ? /home/mobaxterm/desktop/hw1/hw3/hw3_question2 ?
+ ? 27/10/2022 ? ? 12:28.30 ? gcc question2.c
+                                                                               ?
+
+ ? /home/mobaxterm/desktop/hw1/hw3/hw3_question2 ?
+ ? 27/10/2022 ? ? 12:28.36 ? ./a
+Appelle mon numéro
+Current working directory: /drives/C/Users/fotin/Desktop/hw1/hw3/hw3_question2
+
+Enter name of country:
+Russia
+The dialing code for Russia is 7
+
+Enter name of country:
+Latvia
+Could not find a dialing code for Latvia
+
+Enter name of country:
+Japan
+The dialing code for Japan is 81
+
+Enter name of country:
+America
+Could not find a dialing code for America
+
+Enter name of country:
+UnItEd StAtEs
+Could not find a dialing code for UnItEd StAtEs
+
+Enter name of country:
+United States
+The dialing code for United States is 1
+
+Enter name of country:
+
+Good bye!
+                                                                               ?
+
+ ? /home/mobaxterm/desktop/hw1/hw3/hw3_question2 ?
+ ? 27/10/2022 ? ? 12:29.18 ?

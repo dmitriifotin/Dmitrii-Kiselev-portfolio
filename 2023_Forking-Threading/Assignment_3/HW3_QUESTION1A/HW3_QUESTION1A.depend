@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1666880243 source:c:\users\fotin\desktop\hw1\hw3\hw3_question1a\question1a.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<unistd.h>
+	<errno.h>
+
