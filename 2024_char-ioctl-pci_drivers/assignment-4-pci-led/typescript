@@ -1,0 +1,127 @@
+Script started on 2024-05-27 00:26:47-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="29"]
+]0;dfotin@373: ~/ECE373/HW4[01;32mdfotin@373[00m:[01;34m~/ECE373/HW4[00m$ make
+make -C  /lib/modules/5.15.0-107-generic/build M=/home/dfotin/ECE373/HW4 modules
+make[1]: Entering directory '/usr/src/linux-headers-5.15.0-107-generic'
+  CC [M]  /home/dfotin/ECE373/HW4/HW4_DF.o
+[01m[K/home/dfotin/ECE373/HW4/HW4_DF.c:23:[m[K [01;35m[Kwarning: [m[K"PCI_VENDOR_ID" redefined
+   23 | #define PCI_VENDOR_ID 0x8086
+      | 
+In file included from [01m[K./include/uapi/linux/pci.h:21[m[K,
+                 from [01m[K./include/linux/pci.h:41[m[K,
+                 from [01m[K/home/dfotin/ECE373/HW4/HW4_DF.c:12[m[K:
+[01m[K./include/uapi/linux/pci_regs.h:38:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+   38 | #define PCI_VENDOR_ID  0x00 /* 16 bits */
+      | 
+[01m[K/home/dfotin/ECE373/HW4/HW4_DF.c:24:[m[K [01;35m[Kwarning: [m[K"PCI_DEVICE_ID" redefined
+   24 | #define PCI_DEVICE_ID 0x100e
+      | 
+In file included from [01m[K./include/uapi/linux/pci.h:21[m[K,
+                 from [01m[K./include/linux/pci.h:41[m[K,
+                 from [01m[K/home/dfotin/ECE373/HW4/HW4_DF.c:12[m[K:
+[01m[K./include/uapi/linux/pci_regs.h:39:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+   39 | #define PCI_DEVICE_ID  0x02 /* 16 bits */
+      | 
+  MODPOST /home/dfotin/ECE373/HW4/Module.symvers
+  CC [M]  /home/dfotin/ECE373/HW4/HW4_DF.mod.o
+  LD [M]  /home/dfotin/ECE373/HW4/HW4_DF.ko
+  BTF [M] /home/dfotin/ECE373/HW4/HW4_DF.ko
+Skipping BTF generation for /home/dfotin/ECE373/HW4/HW4_DF.ko due to unavailability of vmlinux
+make[1]: Leaving directory '/usr/src/linux-headers-5.15.0-107-generic'
+]0;dfotin@373: ~/ECE373/HW4[01;32mdfotin@373[00m:[01;34m~/ECE373/HW4[00m$ cd interface
+]0;dfotin@373: ~/ECE373/HW4/interface[01;32mdfotin@373[00m:[01;34m~/ECE373/HW4/interface[00m$ make
+gcc -std=c99 -o interface interface.c
+]0;dfotin@373: ~/ECE373/HW4/interface[01;32mdfotin@373[00m:[01;34m~/ECE373/HW4/interface[00m$ cd
+]0;dfotin@373: ~[01;32mdfotin@373[00m:[01;34m~[00m$ su
+Password: 
+]0;root@373: /home/dfotinroot@373:/home/dfotin# cdlear[3Plsrmmod HW4_DFecho 0000:00:03.0 | tee bind[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd /sys/module/e1000/drivers/pci\:e1000
+]0;root@373: /sys/module/e1000/drivers/pci:e1000root@373:/sys/module/e1000/drivers/pci:e1000# ll
+total 0
+drwxr-xr-x  2 root root    0 May 26 00:38 [0m[01;34m.[0m/
+drwxr-xr-x 30 root root    0 May 26 00:38 [01;34m..[0m/
+lrwxrwxrwx  1 root root    0 May 27 00:27 [01;36m0000:00:03.0[0m -> [01;34m../../../../devices/pci0000:00/0000:00:03.0[0m/
+--w-------  1 root root 4096 May 27 00:24 bind
+lrwxrwxrwx  1 root root    0 May 26 00:39 [01;36mmodule[0m -> [01;34m../../../../module/e1000[0m/
+--w-------  1 root root 4096 May 26 21:51 new_id
+--w-------  1 root root 4096 May 26 21:51 remove_id
+--w-------  1 root root 4096 May 26 00:38 uevent
+--w-------  1 root root 4096 May 27 00:21 unbind
+]0;root@373: /sys/module/e1000/drivers/pci:e1000root@373:/sys/module/e1000/drivers/pci:e1000# llcd /sys/module/e1000/drivers/pci\:e1000[A]0;root@373: /sys/module/e1000/drivers/pci:e1000root@373:/sys/module/e1000/drivers/pci:e1000# [C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clear[3Plsrmmod HW4_DFecho 0000:00:03.0 | tee bindubindnbind
+0000:00:03.0
+]0;root@373: /sys/module/e1000/drivers/pci:e1000root@373:/sys/module/e1000/drivers/pci:e1000# ll
+total 0
+drwxr-xr-x  2 root root    0 May 26 00:38 [0m[01;34m.[0m/
+drwxr-xr-x 30 root root    0 May 26 00:38 [01;34m..[0m/
+--w-------  1 root root 4096 May 27 00:24 bind
+lrwxrwxrwx  1 root root    0 May 26 00:39 [01;36mmodule[0m -> [01;34m../../../../module/e1000[0m/
+--w-------  1 root root 4096 May 26 21:51 new_id
+--w-------  1 root root 4096 May 26 21:51 remove_id
+--w-------  1 root root 4096 May 26 00:38 uevent
+--w-------  1 root root 4096 May 27 00:27 unbind
+]0;root@373: /sys/module/e1000/drivers/pci:e1000root@373:/sys/module/e1000/drivers/pci:e1000# [K]0;root@373: /sys/module/e1000/drivers/pci:e1000root@373:/sys/module/e1000/drivers/pci:e1000# exit
+]0;dfotin@373: ~[01;32mdfotin@373[00m:[01;34m~[00m$ cd ECE373/HW4
+]0;dfotin@373: ~/ECE373/HW4[01;32mdfotin@373[00m:[01;34m~/ECE373/HW4[00m$ su
+Password: 
+]0;root@373: /home/dfotin/ECE373/HW4root@373:/home/dfotin/ECE373/HW4# insmod HW4_DF.ko
+]0;root@373: /home/dfotin/ECE373/HW4root@373:/home/dfotin/ECE373/HW4# cd interface
+]0;root@373: /home/dfotin/ECE373/HW4/interfaceroot@373:/home/dfotin/ECE373/HW4/interface# ./interface
+Type number:
+0xe
+Writing input to driver
+Reading input from driver
+Value read:14
+]0;root@373: /home/dfotin/ECE373/HW4/interfaceroot@373:/home/dfotin/ECE373/HW4/interface# dmesg | tail
+[36348.756908] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+[36393.271744] Module unloaded
+[36657.943644] Major: 237, Minor: 0
+[36657.943677] Device class created successfully
+[36657.945829] Device created successfully
+[36657.945863] Successful probe! BAR = 00000001
+[36672.810738] successfully opened!
+[36677.521977] Wrote 0xe to LEDCTL
+[36677.521988] Read 0xe from LEDCTL
+[36677.522003] Release function
+]0;root@373: /home/dfotin/ECE373/HW4/interfaceroot@373:/home/dfotin/ECE373/HW4/interface# ./interface
+Type number:
+0xf
+Writing input to driver
+Reading input from driver
+Value read:15
+]0;root@373: /home/dfotin/ECE373/HW4/interfaceroot@373:/home/dfotin/ECE373/HW4/interface# dmesg | tail
+[36657.945829] Device created successfully
+[36657.945863] Successful probe! BAR = 00000001
+[36672.810738] successfully opened!
+[36677.521977] Wrote 0xe to LEDCTL
+[36677.521988] Read 0xe from LEDCTL
+[36677.522003] Release function
+[36690.942784] successfully opened!
+[36694.409345] Wrote 0xf to LEDCTL
+[36694.409356] Read 0xf from LEDCTL
+[36694.409368] Release function
+]0;root@373: /home/dfotin/ECE373/HW4/interfaceroot@373:/home/dfotin/ECE373/HW4/interface# cd
+]0;root@373: ~root@373:~# cddmesg | tail[1P./interfacedmesg | tail[1P./interfacecd interfaceinsmod HW4_DF.ko[C[C[C[C[C[C[C[C[C[C[C[Cll[Kecho 0000:00:03.0 | tee unbind[C[C[C[C[C[C[C[C[C[C[C[Cll[Kcd /sys/module/e1000/drivers/pci\:e1000
+]0;root@373: /sys/module/e1000/drivers/pci:e1000root@373:/sys/module/e1000/drivers/pci:e1000# cd /sys/module/e1000/drivers/pci\:e1000[A]0;root@373: /sys/module/e1000/drivers/pci:e1000root@373:/sys/module/e1000/drivers/pci:e1000# [C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdmesg | tail[1P./interfacedmesg | tail[1P./interfacecd interfaceinsmod HW4_DF.koll[Kecho 0000:00:03.0 | tee unbindll[Kcd /sys/module/e1000/drivers/pci\:e1000[A]0;root@373: /sys/module/e1000/drivers/pci:e1000root@373:/sys/module/e1000/drivers/pci:e1000# [C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clear[3Plsrmmod HW4_DFecho 0000:00:03.0 | tee bind[K]0;root@373: /sys/module/e1000/drivers/pci:e1000root@373:/sys/module/e1000/drivers/pci:e1000# echo 0000:00:03.0 | tee bind
+0000:00:03.0
+tee: bind: Device or resource busy
+]0;root@373: /sys/module/e1000/drivers/pci:e1000root@373:/sys/module/e1000/drivers/pci:e1000# ll[K[Krmmod HW4_DF
+]0;root@373: /sys/module/e1000/drivers/pci:e1000root@373:/sys/module/e1000/drivers/pci:e1000# rmmod HW4_DFecho 0000:00:03.0 | tee bind
+0000:00:03.0
+]0;root@373: /sys/module/e1000/drivers/pci:e1000root@373:/sys/module/e1000/drivers/pci:e1000# ll
+total 0
+drwxr-xr-x  2 root root    0 May 26 00:38 [0m[01;34m.[0m/
+drwxr-xr-x 30 root root    0 May 26 00:38 [01;34m..[0m/
+lrwxrwxrwx  1 root root    0 May 27 00:31 [01;36m0000:00:03.0[0m -> [01;34m../../../../devices/pci0000:00/0000:00:03.0[0m/
+--w-------  1 root root 4096 May 27 00:31 bind
+lrwxrwxrwx  1 root root    0 May 26 00:39 [01;36mmodule[0m -> [01;34m../../../../module/e1000[0m/
+--w-------  1 root root 4096 May 26 21:51 new_id
+--w-------  1 root root 4096 May 26 21:51 remove_id
+--w-------  1 root root 4096 May 26 00:38 uevent
+--w-------  1 root root 4096 May 27 00:27 unbind
+]0;root@373: /sys/module/e1000/drivers/pci:e1000root@373:/sys/module/e1000/drivers/pci:e1000# exit
+exit
+]0;dfotin@373: ~/ECE373/HW4[01;32mdfotin@373[00m:[01;34m~/ECE373/HW4[00m$ exit
+exit
+
+Script done on 2024-05-27 00:31:44-04:00 [COMMAND_EXIT_CODE="0"]

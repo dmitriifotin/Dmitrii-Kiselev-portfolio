@@ -1,0 +1,10 @@
+Script started on 2024-04-11 21:37:36-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="79" LINES="26"]
+]0;dfotin@373: ~[01;32mdfotin@373[00m:[01;34m~[00m$ cd ./ECE373
+]0;dfotin@373: ~/ECE373[01;32mdfotin@373[00m:[01;34m~/ECE373[00m$ gcc -g -o ample[K[K[K[K[Ksample sample.c
+]0;dfotin@373: ~/ECE373[01;32mdfotin@373[00m:[01;34m~/ECE373[00m$ ./sample
+Guess a number 0-9
+0
+Nope!
+]0;dfotin@373: ~/ECE373[01;32mdfotin@373[00m:[01;34m~/ECE373[00m$ exit
+
+Script done on 2024-04-11 21:38:14-04:00 [COMMAND_EXIT_CODE="0"]
